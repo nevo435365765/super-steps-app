@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+.DS_Store
+npm-debug.*
+*.jks
+*.p12
+*.key
+*.mobileprovision
+assets/
+!.gitignore
+.env

@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Super-Steps",
+    "slug": "super-steps",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "scheme": "supersteps",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.supersteps.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Super-Steps uses your location to show friends nearby and on the map.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Super-Steps uses background location to keep your step map live.",
+        "NSMotionUsageDescription": "Super-Steps uses motion to count your steps.",
+        "UIBackgroundModes": ["location", "fetch", "processing"]
+      }
+    },
+    "android": {
+      "package": "com.supersteps.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACTIVITY_RECOGNITION",
+        "FOREGROUND_SERVICE",
+        "WAKE_LOCK"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "YOUR_GOOGLE_MAPS_API_KEY_ANDROID"
+        }
+      }
+    },
+    "plugins": [
+      "expo-location",
+      "expo-task-manager"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "super-steps"
+      }
+    }
+  }
+}
