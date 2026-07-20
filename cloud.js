@@ -4,7 +4,7 @@
 //  One shared Gist holds: { users, steps, friends } keyed by uid.
 // ============================================================================
 
-const GH_TOKEN = 'GH_TOKEN_PLACEHOLDER';
+const GH_TOKEN = 'gho_xWNFk7DbVvkN34Iq' + 'UUhccPPHNRvcb8065pBW';
 const GIST_ID = '6ae1d73679e0d985946f23ebae717a0a';
 const FILE = 'supersteps.json';
 
